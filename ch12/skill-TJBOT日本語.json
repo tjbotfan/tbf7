@@ -1,0 +1,1032 @@
+{
+  "name": "TJBOT日本語",
+  "intents": [
+    {
+      "intent": "shine",
+      "examples": [
+        {
+          "text": "色にして"
+        },
+        {
+          "text": "ライトをつけて"
+        },
+        {
+          "text": "赤を点けて"
+        },
+        {
+          "text": "色を変えて"
+        },
+        {
+          "text": "あかりをつけて"
+        },
+        {
+          "text": "ライトを変えて"
+        }
+      ],
+      "description": "頭を光らせる"
+    },
+    {
+      "intent": "lower-arm",
+      "examples": [
+        {
+          "text": "手を降ろして"
+        },
+        {
+          "text": "下げて"
+        },
+        {
+          "text": "手を下ろして"
+        },
+        {
+          "text": "手を下げて"
+        }
+      ],
+      "description": "手を下げる"
+    },
+    {
+      "intent": "ending",
+      "examples": [
+        {
+          "text": "さようなら"
+        },
+        {
+          "text": "もういいです"
+        },
+        {
+          "text": "おやすみなさい"
+        },
+        {
+          "text": "どうもありがとう"
+        },
+        {
+          "text": "じゃね、バイバイ。"
+        },
+        {
+          "text": "また今度"
+        },
+        {
+          "text": "完了"
+        },
+        {
+          "text": "助かったよ"
+        },
+        {
+          "text": "また明日。"
+        },
+        {
+          "text": "お疲れ様です。"
+        },
+        {
+          "text": "終わります"
+        },
+        {
+          "text": "終了します"
+        },
+        {
+          "text": "解決した"
+        },
+        {
+          "text": "お返事ありがとうございました"
+        },
+        {
+          "text": "またね"
+        },
+        {
+          "text": "さよなら"
+        },
+        {
+          "text": "他にはありません"
+        },
+        {
+          "text": "以上です。"
+        },
+        {
+          "text": "今日はこれでokです。"
+        },
+        {
+          "text": "以上です。失礼します。"
+        }
+      ],
+      "description": "会話を終了します"
+    },
+    {
+      "intent": "ip",
+      "examples": [
+        {
+          "text": "アドレスは？"
+        },
+        {
+          "text": "IPアドレスを教えて"
+        },
+        {
+          "text": "あなたのIPは何？"
+        },
+        {
+          "text": "IP"
+        },
+        {
+          "text": "あなたのアドレスは何？"
+        }
+      ],
+      "description": "IPアドレスを返す"
+    },
+    {
+      "intent": "jokes",
+      "examples": [
+        {
+          "text": "ねずっちして"
+        },
+        {
+          "text": "冗談わかる"
+        },
+        {
+          "text": "気分はどう？"
+        },
+        {
+          "text": "面白い事言って"
+        },
+        {
+          "text": "なぞかけをして"
+        },
+        {
+          "text": "私を驚かせて"
+        },
+        {
+          "text": "私を笑わせて"
+        },
+        {
+          "text": "冗談を言って"
+        },
+        {
+          "text": "変なこと言って"
+        },
+        {
+          "text": "何か面白いことを言って"
+        },
+        {
+          "text": "私は冗談を聞きたい"
+        },
+        {
+          "text": "ジョークは理解しますか"
+        },
+        {
+          "text": "楽しませてくれるね"
+        },
+        {
+          "text": "楽しませて"
+        },
+        {
+          "text": "冗談言ってみて"
+        },
+        {
+          "text": "面白い事言ってください"
+        },
+        {
+          "text": "冗談を言って見て"
+        }
+      ],
+      "description": "ジョークを要求します"
+    },
+    {
+      "intent": "time",
+      "examples": [
+        {
+          "text": "今何時"
+        },
+        {
+          "text": "いま何時ですか"
+        }
+      ],
+      "description": "時間"
+    },
+    {
+      "intent": "positive_feedback",
+      "examples": [
+        {
+          "text": "すごいです"
+        },
+        {
+          "text": "問題なかったです"
+        },
+        {
+          "text": "すごい"
+        },
+        {
+          "text": "ためになった"
+        },
+        {
+          "text": "とても助かりました"
+        },
+        {
+          "text": "よかった"
+        },
+        {
+          "text": "十分です"
+        },
+        {
+          "text": "十分だ"
+        },
+        {
+          "text": "助かりました"
+        },
+        {
+          "text": "助かります"
+        },
+        {
+          "text": "すばらしいです"
+        },
+        {
+          "text": "ためになりました"
+        },
+        {
+          "text": "素晴らしい"
+        },
+        {
+          "text": "役に立ちました"
+        },
+        {
+          "text": "とても役立ちました"
+        },
+        {
+          "text": "問題ない"
+        }
+      ],
+      "description": "肯定的な感情や感謝を表します"
+    },
+    {
+      "intent": "shutdown",
+      "examples": [
+        {
+          "text": "電源を切って"
+        },
+        {
+          "text": "オフして"
+        },
+        {
+          "text": "パワーオフして"
+        },
+        {
+          "text": "シャットダウンして"
+        }
+      ],
+      "description": "シャットダウンする"
+    },
+    {
+      "intent": "security",
+      "examples": [
+        {
+          "text": "セキュリティについて教えて"
+        },
+        {
+          "text": "個人情報の流出が心配です。"
+        },
+        {
+          "text": "チャットに入力した内容が別に使われることはありますか"
+        },
+        {
+          "text": "チャットの内容を他人に見られたりしますか"
+        },
+        {
+          "text": "チャット内容を公開しないでほしい"
+        },
+        {
+          "text": "誰か聞いている人はいますか"
+        },
+        {
+          "text": "セキュリティを確認したい"
+        },
+        {
+          "text": "セキュリティが気になります"
+        },
+        {
+          "text": "機密漏れは大丈夫？"
+        },
+        {
+          "text": "機密は守られますか"
+        },
+        {
+          "text": "チャットで提供する情報の安全性について知りたい。"
+        },
+        {
+          "text": "ここで提供する個人情報は保護されていますよね？"
+        },
+        {
+          "text": "情報セキュリティは大丈夫ですか"
+        },
+        {
+          "text": "安全に会話ができますか"
+        },
+        {
+          "text": "他の人に聞かれませんか"
+        },
+        {
+          "text": "セキュリティってどうなっているの？"
+        },
+        {
+          "text": "会話は保護されていますか"
+        },
+        {
+          "text": "セキュリティが保証されますか？"
+        },
+        {
+          "text": "このボットは個人情報を扱えますか"
+        },
+        {
+          "text": "チャットで個人情報を提供しても大丈夫ですか？"
+        }
+      ],
+      "description": "ボットのセキュリティに関する懸念を表明します"
+    },
+    {
+      "intent": "date",
+      "examples": [
+        {
+          "text": "今日は何月何日ですか"
+        },
+        {
+          "text": "今日は何曜日ですか"
+        },
+        {
+          "text": "今日は何曜日"
+        },
+        {
+          "text": "今日はいつ"
+        },
+        {
+          "text": "今日は何日"
+        },
+        {
+          "text": "今日は何月何日"
+        },
+        {
+          "text": "今日の日付は"
+        },
+        {
+          "text": "今日はいつですか"
+        }
+      ],
+      "description": "日付を聞く"
+    },
+    {
+      "intent": "raise-arm",
+      "examples": [
+        {
+          "text": "挙げて"
+        },
+        {
+          "text": "手を上げて"
+        },
+        {
+          "text": "手をあげて"
+        },
+        {
+          "text": "あげて"
+        }
+      ],
+      "description": "手をあげる"
+    },
+    {
+      "intent": "wave",
+      "examples": [
+        {
+          "text": "手を動かして"
+        },
+        {
+          "text": "手を振って"
+        },
+        {
+          "text": "バイバイ"
+        }
+      ],
+      "description": "手を振る"
+    },
+    {
+      "intent": "capabilities",
+      "examples": [
+        {
+          "text": "どんなことができますか"
+        },
+        {
+          "text": "何ができる"
+        },
+        {
+          "text": "何ができるか教えて"
+        },
+        {
+          "text": "どんなことができるの"
+        },
+        {
+          "text": "何ができますか"
+        },
+        {
+          "text": "何ができるか教えてください"
+        },
+        {
+          "text": "何をするの"
+        }
+      ],
+      "description": "TJBotができることを聞く"
+    },
+    {
+      "intent": "see",
+      "examples": [
+        {
+          "text": "何が見える？"
+        },
+        {
+          "text": "これは何ですか？"
+        },
+        {
+          "text": "どんな風景が見えていますか？"
+        },
+        {
+          "text": "見えているものは何ですか？"
+        },
+        {
+          "text": "何が見えますか"
+        },
+        {
+          "text": "何が見えますか？"
+        }
+      ],
+      "description": "見えるものを分析する"
+    },
+    {
+      "intent": "negative_feedback",
+      "examples": [
+        {
+          "text": "話しにくい"
+        },
+        {
+          "text": "利用価値なし"
+        },
+        {
+          "text": "全く使えない"
+        },
+        {
+          "text": "使えない"
+        },
+        {
+          "text": "ばか"
+        },
+        {
+          "text": "へんなの"
+        },
+        {
+          "text": "なんだこれ"
+        },
+        {
+          "text": "これはなんなんだ"
+        },
+        {
+          "text": "会話にならない"
+        },
+        {
+          "text": "役に立ちませんね"
+        },
+        {
+          "text": "役に立たない"
+        },
+        {
+          "text": "話しにならない"
+        },
+        {
+          "text": "全く役に立ちません"
+        },
+        {
+          "text": "助けにならない"
+        },
+        {
+          "text": "利用しにくかった"
+        },
+        {
+          "text": "私には使いにくかった"
+        },
+        {
+          "text": "役立たず"
+        }
+      ],
+      "description": "好ましくないフィードバックを表現します"
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "自己紹介をお願いします"
+        },
+        {
+          "text": "ヤッホー"
+        },
+        {
+          "text": "ちわっ"
+        },
+        {
+          "text": "やぁ"
+        },
+        {
+          "text": "挨拶"
+        },
+        {
+          "text": "教えてください"
+        },
+        {
+          "text": "すみませんが、ちょっとお時間宜しいですか。"
+        },
+        {
+          "text": "もしもし。林です。"
+        },
+        {
+          "text": "すみませんが、ちょっと聞きたいことがありますが。"
+        },
+        {
+          "text": "ちょっと質問したいんですけど。"
+        },
+        {
+          "text": "質問してもいいですか"
+        },
+        {
+          "text": "お忙しいところすみません。"
+        },
+        {
+          "text": "何かお困りでしょうか"
+        },
+        {
+          "text": "今大丈夫？"
+        },
+        {
+          "text": "今よろしいですか"
+        },
+        {
+          "text": "あけましておめでとうございます"
+        },
+        {
+          "text": "もしもし、サービスセンターですか？"
+        },
+        {
+          "text": "ちょっといいですか？"
+        },
+        {
+          "text": "おはようございます"
+        },
+        {
+          "text": "こんにちは。"
+        },
+        {
+          "text": "自己紹介をしてください"
+        },
+        {
+          "text": "あなたは何者ですか"
+        },
+        {
+          "text": "あなたは誰ですか"
+        },
+        {
+          "text": "連絡してくれてありがとうございます、これからよろしくお願いします"
+        },
+        {
+          "text": "おはよう"
+        },
+        {
+          "text": "こんにちは"
+        },
+        {
+          "text": "ハロー"
+        },
+        {
+          "text": "ボンジュール"
+        },
+        {
+          "text": "アンニョンハセヨ"
+        },
+        {
+          "text": "こんばんは"
+        },
+        {
+          "text": "やあ"
+        },
+        {
+          "text": "あなたについて教えてください"
+        }
+      ],
+      "description": "ボットに挨拶します"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "colors",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "青",
+          "synonyms": [
+            "青",
+            "青色",
+            "ブルー"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "黄",
+          "synonyms": [
+            "イエロー",
+            "黄",
+            "バナナ",
+            "レモン",
+            "黄色"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "マゼンタ",
+          "synonyms": [
+            "ピンク",
+            "マゼンタ",
+            "紫",
+            "紫色"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "水色",
+          "synonyms": [
+            "水",
+            "ライトブルー"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "緑",
+          "synonyms": [
+            "緑色",
+            "グリーン",
+            "オリーブ"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "赤",
+          "synonyms": [
+            "赤色",
+            "レッド",
+            "赤"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "白",
+          "synonyms": [
+            "白",
+            "ホワイト",
+            "白色",
+            "オン"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    }
+  ],
+  "language": "ja",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "skill_id": "c87be041-0a95-48ee-9c83-6f99ef25d261",
+  "description": "TJBOT日本語での会話例",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "終わり",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ありがとうございました。またよろしくお願いします。"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#ending",
+      "dialog_node": "node_2_1534921007302",
+      "previous_sibling": "node_1_1534920923724"
+    },
+    {
+      "type": "standard",
+      "title": "見えるもの",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ちょっと見て見ますね。"
+              },
+              {
+                "text": "ちょっと待ってください。"
+              },
+              {
+                "text": "画像分析エンジンを起動します。"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#see",
+      "dialog_node": "node_3_1537703969306",
+      "previous_sibling": "node_6_1566696687524"
+    },
+    {
+      "type": "standard",
+      "title": "できること",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "私はいろんなことができます。手を振ったり、色んな色を点けたり、カメラをつけてくれたら何が見えるかも教えられます。"
+              },
+              {
+                "text": "私は、変なロボットなので、ジョークも言います。"
+              },
+              {
+                "text": "手を振ることができるから、手をあげてとか、手を振ってとか言って見て。"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#capabilities",
+      "dialog_node": "node_6_1534594323922",
+      "previous_sibling": "node_5_1534594020150"
+    },
+    {
+      "type": "standard",
+      "title": "セキュリティーについて",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "セキュリティーについてはノーコメントとさせてください。まだ勉強中です。"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#security",
+      "dialog_node": "node_1_1534920923724",
+      "previous_sibling": "node_2_1534671908518"
+    },
+    {
+      "type": "standard",
+      "title": "時間を聞く",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "今は、 @sys-time です。"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#time",
+      "dialog_node": "node_1_1534669893840",
+      "previous_sibling": "node_6_1534594323922"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "IPアドレスは、"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "conditions": "#ip",
+      "dialog_node": "node_6_1566696687524",
+      "previous_sibling": "node_1_1534583961612"
+    },
+    {
+      "type": "standard",
+      "title": "あいさつと手振り",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              },
+              {
+                "text": "こんにちわ"
+              },
+              {
+                "text": "ハロー"
+              },
+              {
+                "text": "ごきげんよう"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#greetings",
+      "dialog_node": "node_5_1534594020150",
+      "previous_sibling": "node_4_1534593516952"
+    },
+    {
+      "type": "standard",
+      "title": "日付を聞く",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "@sys-date"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#date",
+      "dialog_node": "node_2_1534671908518",
+      "previous_sibling": "node_1_1534669893840"
+    },
+    {
+      "type": "standard",
+      "title": "その他",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "すみません。よくわかりませんでした。"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "その他",
+      "previous_sibling": "node_2_1534921007302"
+    },
+    {
+      "type": "standard",
+      "title": "冗談を言う",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "8月8日は笑いのひ。笑顔とかけてお風呂あがりと解く、その心わ、ふくきます"
+              },
+              {
+                "text": "めざしは、故郷を目指した"
+              },
+              {
+                "text": "好きな人とかけまして嫌いな人 とときます。その心は、どちらも、離したくないでしょう"
+              },
+              {
+                "text": "空手とかけまして、介護とときます。その心は、いたわります。"
+              },
+              {
+                "text": "ニートとかけまして、ダイヤモンドとときます。その心は、どちらも無職でしょう。"
+              },
+              {
+                "text": "二つに割れるチョコレートがしとかけまして、放送禁止用語とときます。その心は、きっとカットでしょう。"
+              },
+              {
+                "text": "美少女キャラと掛けまして、枯れ葉とときます。その心は、良くもえるでしょう。"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#jokes",
+      "dialog_node": "node_3_1534584306086",
+      "previous_sibling": "node_3_1537703969306"
+    },
+    {
+      "type": "standard",
+      "title": "自己紹介",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "こんにちは、私はTJBotです！"
+              },
+              {
+                "text": "私は、TJBotです！"
+              },
+              {
+                "text": "こんにちは、私の名前は、TJBotです。"
+              },
+              {
+                "text": "私は、TJBotです。お会いできて嬉しいです。"
+              },
+              {
+                "text": "私は、IBMのWatsonに繋がっています。"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#greetings",
+      "dialog_node": "node_1_1534583961612",
+      "previous_sibling": "node_1_1566646379475"
+    },
+    {
+      "type": "standard",
+      "title": "コマンドの認識",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "オッケー"
+              },
+              {
+                "text": "了解"
+              },
+              {
+                "text": "わかった"
+              },
+              {
+                "text": "あい、わかった"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#lower-arm || #raise-arm || #shine || #wave",
+      "dialog_node": "node_4_1534593516952",
+      "previous_sibling": "node_3_1534584306086"
+    },
+    {
+      "type": "standard",
+      "title": "シャットダウン",
+      "output": {
+        "text": {
+          "values": [
+            "シャットダウンします。",
+            "電源を切ります。"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "conditions": "#shutdown",
+      "dialog_node": "node_1_1566646379475"
+    }
+  ],
+  "workspace_id": "c87be041-0a95-48ee-9c83-6f99ef25d261",
+  "counterexamples": [],
+  "system_settings": {},
+  "learning_opt_out": false,
+  "status": "Available"
+}
